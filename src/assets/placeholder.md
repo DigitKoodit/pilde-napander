@@ -1,1 +1,0 @@
-This file is to be replaced with static assets of the project.

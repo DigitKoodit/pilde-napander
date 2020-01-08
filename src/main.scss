@@ -3,16 +3,20 @@
 body {
   font-family: 'Domine', serif;
   hyphens: auto;
+  background-image: url('/background.jpg');
+  background-repeat: repeat;
+  font-size: 1.1rem;
 }
 
 header {
   border-bottom: 5px solid #333;
+  margin-bottom: 1rem;
 
   > h1 {
     font-family: 'ChomskyRegular';
     font-weight: normal;
     font-style: normal;
-    font-size: 5.5em;
+    font-size: 5em;
     text-align: center;
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
@@ -40,10 +44,10 @@ footer {
   border-top: 5px solid #333;
   padding: 20px;
   text-align: center;
+  margin-top: 1rem;
 }
 
 .Content {
-  margin: 1em;
 
   h1, h2, h3 {
     font-family: 'Lora', serif;
@@ -53,10 +57,10 @@ footer {
   }
 
   h1 {
-    font-size: 3em;
+    font-size: 2.8em;
 
     @media (max-width: 800px), (max-screen-width: 800px) {
-      font-size: 2em;
+      font-size: 1.7em;
     }
   }
 
@@ -76,7 +80,7 @@ footer {
 
 .FrontPage {
   > div {
-    padding: 20px;
+    padding: 1rem;
   }
 
   @media (min-width: 800px), (min-screen-width: 800px) {

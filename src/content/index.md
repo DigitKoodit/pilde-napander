@@ -1,16 +1,51 @@
 ---
-title: My Homepage
+title: Pilde & Napander 2020
 draft: false
 layout: index.html
 ---
 
+<div class="MainContent">
 
-<h2 class="title">The title of the page</h2>
+# Ilmoitusluontoinen asia
 
-## Testing this
+Kiinnostaako teekkarikulttuuri? Saatko kavereittesi leukaperät väpättämään humoristisella ulosannillasi? Osaatko taittaa
+paperiarkin yli kuusi kertaa? Mikäli vastasit jotakin johonkin edellä mainituista kysymyksistä, Wappulehti
+Pilde&Napanderin toimikunnassa saattaa olla paikka juuri sinulle!
 
-<code>
- Nice, you got this working.
-</code>
+Wappulehtitoimikunta etsii vitsi_huumori_lehden toimittamisesta kiinnostuneita opiskelijanretaleita tekemään vuoden 2020 
+kovinta turkulaista painotuotetta. Toimikunnan kautta pääset sukeltamaan syvään päätyyn turkulaiseen teekkarikulttuuriin
+sekä saat uusia ystäviä, opit uusia taitoja sekä tuottamaan hyvää mieltä turkulaiselle opiskelijakunnalle. Etsimme
+esimerkiksi:
 
-These are the page contents that will be rendered on place of the handlebars. Or are they?
+* Kirjoittajia
+* Graafikoita
+* Valokuvaajia
+* Somettajia
+* Taittajia
+* Webbidevelooppereita
+* Yrityssuhdetaitureita
+* …sekä monia muita?
+
+Kiinnostuitko? Täytä [hakemus](https://forms.gle/yvmDcpfkoRveCsSE8) 19.1. mennessä ja olet inessä. HUOM! Fukseille
+aktiivisesta puuhastelusta irtoaa myös toimikunta- sekä Wappulehtipiste!
+
+<hr>
+
+</div>
+
+<div class="Info">
+
+## Eli mikä P&N?
+
+Pilde & Napander on turkulaisten opiskelijoiden tuottama Wappulehti, joka levittää turkulaisen teekkariuden ilosanomaa
+kaikelle kansalle. Ensimmäinen Pilde & Napander ilmestyi vuonna 2001. Pilde & Napanderissa on vuosittain vaihtuva teema,
+jonka ympärille Wappulehtitoimikunta tuottaa humoristista sisältöä. Lehden toimittamisesta vastaavat Digitin ja
+Nucleuksen jäsenistöjen valitsemat päätoimittajat.
+
+<hr>
+
+## Jotain tähän
+
+Vaiks se vitsilomake.
+
+</div>

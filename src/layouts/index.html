@@ -27,9 +27,13 @@
   <meta name="theme-color" content="#f44336">
 
   <link rel="stylesheet" type="text/css" href="styles.css"/>
-  <script async type="text/javascript" src="bundle.min.js"></script>
+  <link rel="stylesheet" media="screen" href="https://fontlibrary.org/face/chomsky" type="text/css"/>
 </head>
   <body>
-    {{{contents}}}
+    {{> Header}}
+    <div class="Content FrontPage">
+      {{{contents}}}
+    </div>
+    {{> Footer}}
   </body>
 </html>

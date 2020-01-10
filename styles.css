@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Domine&display=swap");
+body {
+  font-family: 'Domine', serif;
+  hyphens: auto;
+  background-image: url("/background.jpg");
+  background-repeat: repeat;
+  font-size: 1.1rem; }
+
+header {
+  border-bottom: 5px solid #333;
+  margin-bottom: 1rem; }
+  header > h1 {
+    font-family: 'ChomskyRegular';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 5em;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem; }
+    @media (max-width: 800px), (max-screen-width: 800px) {
+      header > h1 {
+        font-size: 2.5rem; } }
+  header > ul {
+    border-top: 1px solid #333;
+    margin: 0;
+    padding: 0.5rem;
+    list-style: none;
+    display: flex;
+    justify-content: space-between; }
+    @media (max-width: 800px), (max-screen-width: 800px) {
+      header > ul {
+        display: none; } }
+
+footer {
+  border-top: 5px solid #333;
+  padding: 20px;
+  text-align: center;
+  margin-top: 1rem; }
+
+.Content h1, .Content h2, .Content h3 {
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  text-align: center;
+  margin: 0; }
+
+.Content h1 {
+  font-size: 2.8em; }
+  @media (max-width: 800px), (max-screen-width: 800px) {
+    .Content h1 {
+      font-size: 1.7em; } }
+
+.Content a {
+  font-weight: 700;
+  text-decoration: none; }
+
+.Content hr {
+  border: none;
+  height: 3px;
+  /* Set the hr color */
+  color: #333;
+  /* old IE */
+  background-color: #333;
+  /* Modern Browsers */ }
+
+.Content img {
+  width: 100%; }
+
+.FrontPage > div {
+  padding: 1rem; }
+
+@media (min-width: 800px), (min-screen-width: 800px) {
+  .FrontPage {
+    display: flex; }
+    .FrontPage > .MainContent {
+      width: 60%;
+      border-bottom: none;
+      border-right: 3px solid #333; }
+      .FrontPage > .MainContent > hr {
+        display: none; }
+    .FrontPage > .Info {
+      width: 40%; } }

@@ -8,6 +8,8 @@ layout: index.html
 
 # Ilmoitusluontoinen asia
 
+![Teekkariaiheinen kuva](/PN2017_gs.png)
+
 Kiinnostaako teekkarikulttuuri? Saatko kavereittesi leukaperät väpättämään humoristisella ulosannillasi? Osaatko taittaa
 paperiarkin yli kuusi kertaa? Mikäli vastasit jotakin johonkin edellä mainituista kysymyksistä, Wappulehti
 Pilde&Napanderin toimikunnassa saattaa olla paikka juuri sinulle!
@@ -44,8 +46,10 @@ Nucleuksen jäsenistöjen valitsemat päätoimittajat.
 
 <hr>
 
-## Jotain tähän
+## Kerro paras vitsisi
 
-Vaiks se vitsilomake.
+Kerro tähän hauskin vitsisi ja voitat (ehkä) eeppisiä palkintoja.
+
+<div id="JokeForm"></div>
 
 </div>

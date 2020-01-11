@@ -48,8 +48,7 @@ Nucleuksen jäsenistöjen valitsemat päätoimittajat.
 
 ## Kerro paras vitsisi
 
-Kerro tähän hauskin vitsisi ja voitat (ehkä) eeppisiä palkintoja.
-
-<div id="JokeForm"></div>
+Kerro tähän hauskin vitsisi ja voitat (ehkä) eeppisiä palkintoja. Vähänkään hauskat vitsit julkaistaan lehdessä.
+Ehdota vitsiä [täällä]().
 
 </div>

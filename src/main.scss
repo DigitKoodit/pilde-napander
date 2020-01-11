@@ -1,11 +1,15 @@
 @import url('https://fonts.googleapis.com/css?family=Domine&display=swap');
 
+$underlineColor: #000;
+$underlineHeight: 10%;
+
 body {
   font-family: 'Domine', serif;
   hyphens: auto;
   background-image: url('/background.jpg');
   background-repeat: repeat;
   font-size: 1.1rem;
+  font-weight: 700;
 }
 
 header {
@@ -64,11 +68,6 @@ footer {
     }
   }
 
-  a {
-    font-weight: 700;
-    text-decoration: none;
-  }
-
   hr {
     border: none;
     height: 3px;
@@ -84,6 +83,42 @@ footer {
 
     @media (max-width: 480px), (max-screen-width: 480px) {
       max-height: 180px;
+    }
+  }
+
+  .ButtonContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Lora', serif;
+
+    > a {
+      margin: 20px;
+      font-style: normal;
+      text-decoration: none;
+      display: inline-block;
+      background: transparent;
+      color: #fff;
+      font-weight: 600;
+      border: 2px solid #333;
+      background-color: #333;
+      border-radius: 5px;
+      padding: 10px 20px;
+      font-size: 1.5rem;
+      cursor: pointer;
+      transition: .1s ease-in-out all;
+      box-shadow:
+        0 2px #000,
+        0 3px #000,
+        0 4px 2px rgba(0,0,0,0.4)
+      ;
+    }
+
+    &:hover {
+      > a {
+        background-color: #000;
+      }
     }
   }
 }
@@ -108,6 +143,53 @@ footer {
 
     > .Info {
       width: 40%;
+    }
+  }
+}
+
+a {
+  position: relative;
+  text-decoration: none;
+  display: inline-block;
+  color: black;
+  padding: 0 1px;
+  transition: color ease 0.3s;
+  font-family: 'Lora', serif;
+  font-weight: 700;
+  font-size: 1.1em;
+
+  &::before, &::after {
+    content: '';
+    position: absolute;
+    background-color: $underlineColor;
+    z-index: -1;
+    height: $underlineHeight;
+  }
+  
+  &::before {
+    width: 0%;
+    left: 0;
+    bottom: 0;
+    transition: width ease 0.4s;
+  }
+  
+  &::after {
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    transition: all ease 0.6s;
+  }
+  
+  &:hover {
+
+    &::before {
+      width: 100%;
+    }
+    
+    &::after {
+      left: 100%;
+      width: 0%;
+      transition: all ease 0.2s;
     }
   }
 }

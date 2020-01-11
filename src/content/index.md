@@ -6,9 +6,14 @@ layout: index.html
 
 <div class="MainContent">
 
-# Ilmoitusluontoinen asia
+<div class="ImageContainer">
 
 ![Teekkariaiheinen kuva](/PN2017_gs.png)
+Turkulainen teekkari (vas.) kohtaa normaaleja ihmisiä.
+
+</div>
+
+# Ilmoitusluontoinen asia
 
 Kiinnostaako teekkarikulttuuri? Saatko kavereittesi leukaperät väpättämään humoristisella ulosannillasi? Osaatko taittaa
 paperiarkin yli kuusi kertaa? Mikäli vastasit jotakin johonkin edellä mainituista kysymyksistä, Wappulehti
@@ -48,7 +53,7 @@ Nucleuksen jäsenistöjen valitsemat päätoimittajat.
 
 ## Kerro paras vitsisi
 
-Kerro tähän hauskin vitsisi ja voitat (ehkä) eeppisiä palkintoja. Vähänkään hauskat vitsit julkaistaan lehdessä.
+Kerro hauskin vitsisi ja voitat (ehkä) eeppisiä palkintoja. Vähänkään hauskat vitsit julkaistaan lehdessä.
 Ehdota vitsiä [täällä]().
 
 </div>

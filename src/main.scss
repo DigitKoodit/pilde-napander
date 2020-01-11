@@ -6,7 +6,7 @@ $underlineHeight: 10%;
 body {
   font-family: 'Domine', serif;
   hyphens: auto;
-  background-image: url('/background.jpg');
+  background-image: url('/seamless_paper_texture.png');
   background-repeat: repeat;
   font-size: 1.1rem;
   font-weight: 700;
@@ -38,7 +38,7 @@ header {
     display: flex;
     justify-content: space-between;
 
-    @media (max-width: 800px), (max-screen-width: 800px) {
+    @media (max-width: 950px), (max-screen-width: 950px) {
       display: none;
     }
   }

@@ -2,17 +2,60 @@
   <h1>Pilde & Napander</h1>
   <ul class="SubHeader">
     <li>
+      <script language="javascript">
+        function fncDayOfWeek() {
+          var stDate;
+          var now;
+          var day= new Array(7);
+          day[0]="Sunnuntai";
+          day[1]="Maanantai";
+          day[2]="Tiistai";
+          day[3]="Keskiviikko";
+          day[4]="Torstai";
+          day[5]="Perjantai";
+          day[6]="Lauantai";
+          now= new Date();
+          stDate=now.getDay();
+          return(day[stDate]);
+        }
+        function fncMonth() {
+          var stDate;
+          var now;
+          var month= new Array(12);
+          month[0]="tammikuuta";
+          month[1]="helmikuuta";
+          month[2]="maaliskuuta";
+          month[3]="huhtikuuta";
+          month[4]="toukokuuta";
+          month[5]="kesäkuuta";
+          month[6]="heinäkuuta";
+          month[7]="elokuuta";
+          month[8]="syyskuuta";
+          month[9]="lokakuuta";
+          month[10]="marraskuuta";
+          month[11]="joulukuuta";
+          now= new Date();
+          stDate = now.getMonth();
+          return(month[stDate]);
+        }
+        document.write(fncDayOfWeek() + " " + new Date().getDate() + ". " + fncMonth() + " " + new Date().getFullYear());
+    </script>
+    </li>
+    <li>
       <script>
-        function weekNumber() {
-            var onejan = new Date(new Date().getFullYear(), 0, 1);
-            return Math.ceil((((new Date() - onejan) / 86400000) + onejan.getDay() + 1) / 7);
+        function getWeekNumber(d) {
+          d = new Date(Date.UTC(d.getFullYear(), d.getMonth(), d.getDate()));
+          d.setUTCDate(d.getUTCDate() + 4 - (d.getUTCDay()||7));
+          var yearStart = new Date(Date.UTC(d.getUTCFullYear(),0,1));
+          var weekNo = Math.ceil(( ( (d - yearStart) / 86400000) + 1)/7);
+          return weekNo;
         }
 
-        document.write("vko " + weekNumber());
+        document.write("vko " + getWeekNumber(new Date()));
       </script>
     </li>
     <li>19. vuosikerta</li> 
     <li>★★★★★ 20014 (ebin)</li>
-    <li>wappulehti.hommia.net</li>
+    <li>pildejanapander.fi</li>
   </ul>
 </header>

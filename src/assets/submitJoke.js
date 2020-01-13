@@ -1,6 +1,15 @@
 var apiUrl = 'https://ay6i44yayb.execute-api.eu-north-1.amazonaws.com/production/';
 
 var formEl = document.getElementById('joke-form');
+var submitButton = document.getElementById('submit-button');
+
+function validate() {
+  submitButton.disabled = formEl[0].value === '' || formEl[1].value === '' || formEl[2].value === '';
+}
+
+document.getElementById('name-field').addEventListener('keyup', validate);
+document.getElementById('email-field').addEventListener('keyup', validate);
+document.getElementById('joke-field').addEventListener('keyup', validate);
 
 if (formEl) {
   formEl.addEventListener('submit', function(event) {

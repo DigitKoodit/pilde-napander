@@ -56,21 +56,21 @@ Nucleuksen jäsenistöjen valitsemat päätoimittajat.
 Kerro hauskin vitsisi ja voitat (ehkä) eeppisiä palkintoja. Vähänkään hauskat vitsit julkaistaan lehdessä.
 
 <form method="POST" action="" id="joke-form">
-  <span>
-    <label for="name">Nimi:</label>
-    <input type="text" name="name" />
-  </span>
-  <span>
-    <label for="mail">Sähköposti:</label>
-    <input type="text" name="mail" />
-  </span>
-  <span>
-    <label for="joke">Vitsi:</label>
-    <textarea name="joke"></textarea>
-  </span>
-  <span>
-    <button type="submit">Lähetä</button>
-  </span>
+  <div>
+    <div class="LabelWrapper"><label for="name">Nimi:</label></div>
+    <input type="text" name="name" id="name-field"/>
+  </div>
+  <div>
+    <div class="LabelWrapper"><label for="mail">Sähköposti:</label></div>
+    <input type="text" name="mail" id="email-field"/>
+  </div>
+  <div>
+    <div class="LabelWrapper"><label for="vitsi">Vitsi:</label></div>
+    <textarea name="joke" id="joke-field"></textarea>
+  </div>
+  <div>
+    <button type="submit" id="submit-button" disabled>Lähetä</button>
+  </div>
 </form>
 
 </div>

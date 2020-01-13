@@ -171,15 +171,16 @@ form {
   display: flex;
   flex-direction: column;
 
-  > span {
-    display: flex;
+  > div {
+    display: inline-flex;
     margin-bottom: 0.5rem;
 
-    > label {
-      width: 120px; 
+    > .LabelWrapper {
+      width: 8rem;
     }
 
     > input, textarea {
+      width: 100px;
       flex: 1;
       background: none;
       border: none;
@@ -188,6 +189,10 @@ form {
       font-size: 1.1em;
       font-weight: 700;
       color: #18326d;
+    }
+
+    > textarea {
+      height: 6rem;
     }
 
     > button {

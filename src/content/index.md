@@ -54,6 +54,23 @@ Nucleuksen jäsenistöjen valitsemat päätoimittajat.
 ## Kerro paras vitsisi
 
 Kerro hauskin vitsisi ja voitat (ehkä) eeppisiä palkintoja. Vähänkään hauskat vitsit julkaistaan lehdessä.
-Ehdota vitsiä [täällä]().
+
+<form method="POST" action="" id="joke-form">
+  <span>
+    <label for="name">Nimi:</label>
+    <input type="text" name="name" />
+  </span>
+  <span>
+    <label for="mail">Sähköposti:</label>
+    <input type="text" name="mail" />
+  </span>
+  <span>
+    <label for="joke">Vitsi:</label>
+    <textarea name="joke"></textarea>
+  </span>
+  <span>
+    <button type="submit">Lähetä</button>
+  </span>
+</form>
 
 </div>

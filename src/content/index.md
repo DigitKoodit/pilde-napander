@@ -9,7 +9,7 @@ layout: index.html
 <div class="ImageContainer">
 
 ![Teekkariaiheinen kuva](/PN2017_gs.png)
-Turkulainen teekkari (vas.) kohtaa normaaleja ihmisiä.
+Tekniikan ylioppilas ja ihminen kohtaavat wappuna (harmaasävyistetty, 2017)
 
 </div>
 
@@ -33,7 +33,7 @@ esimerkiksi:
 * Yrityssuhdetaitureita
 * …sekä monia muita?
 
-Kiinnostuitko? Täytä [hakemus](https://forms.gle/yvmDcpfkoRveCsSE8) 19.1. mennessä ja olet inessä. HUOM! Fukseille
+Kiinnostuitko? Täytä [hakemus](https://forms.gle/yvmDcpfkoRveCsSE8) 26.1. mennessä ja olet inessä. HUOM! Fukseille
 aktiivisesta puuhastelusta irtoaa myös toimikunta- sekä Wappulehtipiste!
 
 <hr>

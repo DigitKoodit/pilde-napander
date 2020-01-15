@@ -68,7 +68,8 @@ Kerro hauskin vitsisi ja voitat (ehkä) eeppisiä palkintoja. Vähänkään haus
     <div class="LabelWrapper"><label for="vitsi">Vitsi:</label></div>
     <textarea name="joke" id="joke-field"></textarea>
   </div>
-  <div>
+  <div class="align-right">
+    <div id="loading-animation" class="loading hidden"></div>
     <button type="submit" id="submit-button" disabled>Lähetä</button>
   </div>
 </form>

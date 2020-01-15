@@ -173,6 +173,7 @@ form {
 
   > div {
     display: inline-flex;
+    justify-content: flex-end;
     margin-bottom: 0.5rem;
 
     > .LabelWrapper {
@@ -202,9 +203,41 @@ form {
       background: none;
       border: 2.5px solid #000;
       border-radius: 0;
-      padding: 10px 20px;
+      padding: 15px 30px;
       margin-top: 0.5rem;
-      margin-left: auto;
+      margin-left: 1rem;
+    }
+    
+    .loading {
+      display: inline-block;
+      width: 60px;
+      height: 60px;
+      margin-top: 0.5rem;
+    
+      &.hidden {
+        display: none;
+      }
+    }
+    
+    .loading:after {
+      content: " ";
+      display: block;
+      width: 36px;
+      height: 36px;
+      margin: 8px;
+      border-radius: 50%;
+      border: 6px solid #000;
+      border-color: #000 transparent #000 transparent;
+      animation: loading 1.2s linear infinite;
+    }
+    
+    @keyframes loading {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
     }
   }
 }

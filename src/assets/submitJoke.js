@@ -5,7 +5,7 @@ var submitButton = document.getElementById('submit-button');
 var loadingAnimation = document.getElementById('loading-animation');
 
 function validate() {
-  submitButton.disabled = formEl[0].value === '' || formEl[1].value === '' || formEl[2].value === '' || isLoading;
+  submitButton.disabled = formEl[0].value === '' || formEl[1].value === '' || formEl[2].value === '';
 }
 
 document.getElementById('name-field').addEventListener('keyup', validate);

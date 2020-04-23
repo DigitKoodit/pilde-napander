@@ -13,7 +13,16 @@ layout: index.html
 
 </div>
 
-# Se on tulossa!
+# Pilde&Napander 2020 on julkaistu!
+
+[LUKEMAAN](https://drive.google.com/file/d/1sN1FptDATpQsk1wqz4iTLetz2w3kTajC/view?usp=sharing)
+
+Turkulaisen teekkarihuumoripainotteisen painotuotteen huipentuma on pitkällisen puurtamisen ja odottelun jälkeen vihdoin julkaistu! Koska me teekkarit elämme tekniikan aallonharjalla ja tilannetajumme on ensiluokkaista, julkaisemme tänä vuonna Pilde&Napanderin digitaalisena. Lehteä pääsee lukemaan niin [tästä](https://drive.google.com/file/d/1sN1FptDATpQsk1wqz4iTLetz2w3kTajC/view?usp=sharing) kuin hieman ylempääkin.
+
+Lehti julkaistaan myös lähempänä vappuaattoa fyysisenä painoksena, joita voi lunastaa itselleen huokeaan hintaan - lisätietoja löytyy itse lehdestä! Kyseessä on rajoitettu painos ja koneoppimismallimme ennakoikin, että lehdet suorastaan revitään käsistä. Kantsii olla nopee!
+
+Antoisia lukuhetkiä toivotteleepi
+Pilde&Napanderin toimitus
 
 <hr>
 

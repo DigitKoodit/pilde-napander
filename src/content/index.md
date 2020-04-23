@@ -8,33 +8,12 @@ layout: index.html
 
 <div class="ImageContainer">
 
-![Teekkariaiheinen kuva](/PN2017_gs.png)
-Tekniikan ylioppilas ja ihminen kohtaavat wappuna (harmaasävyistetty, 2017)
+![Teekkariaiheinen kuva](/pilde-napander-meta-2020.png)
+"Turun tekniikan nousu" - tuntematon
 
 </div>
 
-# Ilmoitusluontoinen asia
-
-Kiinnostaako teekkarikulttuuri? Saatko kavereittesi leukaperät väpättämään humoristisella ulosannillasi? Osaatko taittaa
-paperiarkin yli kuusi kertaa? Mikäli vastasit jotakin johonkin edellä mainituista kysymyksistä, Wappulehti
-Pilde&Napanderin toimikunnassa saattaa olla paikka juuri sinulle!
-
-Wappulehtitoimikunta etsii vitsi_huumori_lehden toimittamisesta kiinnostuneita opiskelijanretaleita tekemään vuoden 2020 
-kovinta turkulaista painotuotetta. Toimikunnan kautta pääset sukeltamaan syvään päätyyn turkulaiseen teekkarikulttuuriin
-sekä saat uusia ystäviä, opit uusia taitoja sekä tuottamaan hyvää mieltä turkulaiselle opiskelijakunnalle. Etsimme
-esimerkiksi:
-
-* Kirjoittajia
-* Graafikoita
-* Valokuvaajia
-* Somettajia
-* Taittajia
-* Webbidevelooppereita
-* Yrityssuhdetaitureita
-* …sekä monia muita?
-
-Kiinnostuitko? Täytä [hakemus](https://forms.gle/yvmDcpfkoRveCsSE8) 26.1. mennessä ja olet inessä. HUOM! Fukseille
-aktiivisesta puuhastelusta irtoaa myös toimikunta- sekä Wappulehtipiste!
+# Se on tulossa!
 
 <hr>
 
@@ -53,7 +32,7 @@ Nucleuksen jäsenistöjen valitsemat päätoimittajat.
 
 ## Kerro paras vitsisi
 
-Kerro hauskin vitsisi ja voitat (ehkä) eeppisiä palkintoja. Vähänkään hauskat vitsit julkaistaan lehdessä.
+Kerro hauskin vitsisi ja voitat (ehkä) eeppisiä palkintoja. Vähänkään hauskat vitsit julkaistaan seuraavassa lehdessä.
 
 <form method="POST" action="" id="joke-form">
   <div>

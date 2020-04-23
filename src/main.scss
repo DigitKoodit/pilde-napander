@@ -84,9 +84,10 @@ footer {
 
   img {
     width: 100%;
-    max-height: 30em;
+    max-height: 35em;
     object-fit: cover;
-
+    object-position: top;
+    
     @media (max-width: 480px), (max-screen-width: 480px) {
       max-height: 180px;
     }

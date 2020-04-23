@@ -8,12 +8,12 @@ layout: index.html
 
 <div class="ImageContainer">
 
-![Teekkariaiheinen kuva](/pilde-napander-meta-2020.png)
+![Teekkariaiheinen kuva](/pn2020.png)
 "Turun tekniikan nousu" - tuntematon
 
 </div>
 
-# Pilde&Napander 2020 on julkaistu!
+# Pilde & Napander 2020 on julkaistu!
 
 [LUKEMAAN](https://drive.google.com/file/d/1sN1FptDATpQsk1wqz4iTLetz2w3kTajC/view?usp=sharing)
 

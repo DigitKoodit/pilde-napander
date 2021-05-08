@@ -17,7 +17,7 @@
   "author": "Julius Rajala",
   "license": "MIT",
   "devDependencies": {
-    "handlebars": "^4.7.6",
+    "handlebars": "^4.7.7",
     "handlebars-helpers": "^0.10.0",
     "http-server": "^0.12.0",
     "metalsmith": "^2.3.0",
